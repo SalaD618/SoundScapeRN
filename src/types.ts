@@ -4,6 +4,7 @@
   playcount: string;
   imageUrl: string;
   url: string;
+  tags?: string[];
 };
 
 export type ArtistDetails = Artist & {
